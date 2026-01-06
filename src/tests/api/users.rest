@@ -6,6 +6,17 @@ POST http://localhost:3000/api/v2/users
 Content-Type: application/json
 
 {
+    "username": "HNY",
+    "email": "hny@example.com",
+    "password": "pass123",
+    "role": "admin"
+}
+
+### POST request to create a new user 
+POST http://localhost:3000/api/v2/users
+Content-Type: application/json
+
+{
     "username": "ny",
     "email": "ny@example.com",
     "password": "12345678",
